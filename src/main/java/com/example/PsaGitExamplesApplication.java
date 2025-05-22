@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PsaGitExamplesApplication {
 
 	public static void main(String[] args) {
-		int x = 10;
+		String name = "mike";
+		int x = 100;
+		int y = 200;
+		double z = 10.3;
 		SpringApplication.run(PsaGitExamplesApplication.class, args);
 	}
 
